@@ -20,7 +20,7 @@ def get_sets(args):
     elif args.dataset == 'mini_imagenet':
         from .mini_imagenet import dataset_setting
     elif args.dataset == 'ISIC2018':
-        from .ISIC2018 import dataset_setting
+        from .isic2018 import dataset_setting
     elif args.dataset == 'meta_dataset':
         if args.eval:
             trainSet = valSet = None
